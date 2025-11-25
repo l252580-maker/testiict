@@ -1,0 +1,107 @@
+<html lang = "en">
+<head>
+
+<title>
+	Hello world
+</title>
+
+<style>
+	th, td {
+		border: 1px solid black;
+		padding: 5px;
+	}
+
+	div {
+		background-color : grey;
+		padding : 10px;
+		width : 20vw;
+	}
+	form {
+		background-color: cyan;
+		padding : 10px
+	}
+	 caption {
+		color : red;
+		font-size : 22px;
+	}
+</style>
+</head>
+
+<body>
+<h1> My another Website </h1>
+
+<div>
+<form>
+	<table>
+		<caption> Continental Hotel reservation </caption>
+		<tr>
+			<th> Name </th>
+			<td>
+				<input type="text" id="fname" placeholder = "Enter your name"><br>
+			</td>
+		</tr>
+		<tr>
+			<th> eMail </th>
+			<td>
+				<input type="email" id="email" placeholder="abc@gmail.com">
+			</td>
+		</tr>
+		<tr>
+			<th> Mobile No. </th>
+			<td>
+				<input type="number" id="phone" placeholder ="Enter your cell number">
+			</td>
+		</tr>
+		<tr>
+			<th> Arrival Time </th>
+			<td>
+				<input type="time" id="arrival" placeholder="Enter your arrival time">
+			</td>
+		</tr>
+		<tr>
+			<th> Room Type </th>
+			<td>
+				<input type="radio" id="s" name="fav_language" value="Single">
+  				<label for="s">Single</label><br>
+  				<input type="radio" id="d" name="fav_language" value="Double">
+  				<label for="d">Double</label><br>
+ 				<input type="radio" id="p" name="fav_language" value="Presidential suite">
+  				<label for="p">Presidential suite</label><br><br>
+			</td>
+		</tr>
+		<tr>
+			<th> Preferences </th>
+			<td>
+				<input type="checkbox" id="n" value="Non smoking">
+				<label for="n">Non smoking</label><br>
+				<input type="checkbox" id="i" value="Internet">
+				<label for="i">Internet</label><br>
+				<input type="checkbox" id="f" value="Firm matters">
+				<label for="f">Firm matters</label><br>
+			</td>
+		</tr>
+		<tr>
+			<th> Modes of payment </th>
+			<td>
+				<input type="checkbox" id="c" value="cash">
+				<label for="c">cash</label><br>
+				<input type="checkbox" id="ch" value="check">
+				<label for="ch">check</label><br>
+				<input type="checkbox" id="cr" value="credit card">
+				<label for="cr">credit card</label><br>
+				<input type="button" onclick="alert('Sent!')" value="Send Data">
+			</td>
+		</tr>
+		<tr>
+			<th colspan = '2'> <input type="button" onclick="alert('Payment done!')" value="Select Card"> </th>
+		</tr>
+
+
+
+
+	</table>
+</form>
+</div>
+
+</body>  
+</html>
